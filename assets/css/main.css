@@ -58,17 +58,15 @@
 		box-sizing: border-box;
 	}
 
-
-/* Scroller */
-	.scroller {
-		overflow: scroll;
-		scroll-snap-type: mandatory;
+/*Scroller*/
+	.scrollcontainer{
+		
 		scroll-snap-type: y mandatory;
 	}
 
-	.scroller section {
+	.item{
 		scroll-snap-align: start;
-	}	
+	}
 
 /* Containers */
 
@@ -1568,9 +1566,9 @@
 		width: device-width;
 	}
 
-	body {
+	/* body {
 		-ms-overflow-style: scrollbar;
-	}
+	} */
 
 	@media screen and (max-width: 480px) {
 
@@ -1754,7 +1752,7 @@
 	}
 
 	pre {
-		-webkit-overflow-scrolling: touch;
+		/* -webkit-overflow-scrolling: touch; */
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
@@ -2596,7 +2594,7 @@
 /* Table */
 
 	.table-wrapper {
-		-webkit-overflow-scrolling: touch;
+		-webkit-overflow-scrolling: touch; 
 		overflow-x: auto;
 	}
 
@@ -3737,7 +3735,7 @@
 		#header > .logo {
 			display: inline-block;
 			height: inherit;
-			left: 1.25em;
+			left: 0.9em;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
