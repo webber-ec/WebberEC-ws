@@ -1,2 +1,0 @@
-# WebberEC-web
-Website
