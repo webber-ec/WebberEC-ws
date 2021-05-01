@@ -1,7 +1,11 @@
-body{
-  
+body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
 }
 
 ::-webkit-scrollbar { 
@@ -9,23 +13,21 @@ body{
 }
 
 .page{
-  
+
   max-height: 100vh;
   overflow: scroll;
   scroll-snap-type: y mandatory;
 }
 
-
 .item{
   border-bottom: 10px solid rgb(255, 255, 255);
   color: white;
-  background:rgb(51, 51, 104);
+  background:rgb(22, 39, 61);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   
-  font-size: 6vw;
   scroll-snap-align: center;
 }
 
@@ -34,14 +36,26 @@ body{
   max-height: 800px;
   visibility: visible;
 }
-  
-/* .item:nth-child(odd){
-  background: grey;
+
+.jumbotron{
+  width: 80%;
+  margin-top: 100px;
+  color: #000;
 }
 
-.item:last-child{
-  border: none;
-} */
+.jumbotron.rounded-xl {
+  border-radius: 3rem;
+
+}
+
+
+.navbar.bg-dark{
+  transition:500ms ease;
+  background:transparent !important;
+}
+.navbar.bg-dark.scrolled{
+  background:#000 !important;
+}
 
 .navbar > .collapse > .navbar-nav > .nav-item > a{
   color: white;

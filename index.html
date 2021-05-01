@@ -34,6 +34,12 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script>
+      //function myFunction() {
+      //$("nav").addClass("scrolled");
+    //}
+
+    </script>
 
     <!--<header id="header" class="alt">
       <div class="logo">
@@ -49,7 +55,7 @@
       <a href="#menu">Menu</a>
     </header>-->
 
-    <header class="navbar navbar-expand navbar-light bg-dark navbar-fixed-top">
+    <nav class="navbar navbar-expand navbar-light bg-dark fixed-top">
       <a class="navbar-brand" href="index.html"
         ><img
           src="images/wecwhlogo.png"
@@ -95,9 +101,9 @@
           </li>
         </ul>
       </div>
-    </header>
+    </nav>
 
-    <div class="page">
+    <div class="page" onscroll="myFunction()">
       <div class="item">
         <div
           id="carouselExampleIndicators"
@@ -119,7 +125,7 @@
                 class="d-block w-100"
                 src="images/slide01.jpg"
                 width="auto"
-                height="650"
+                height="100%"
                 alt="First slide"
               />
             </div>
@@ -128,7 +134,7 @@
                 class="d-block w-100"
                 src="images/slide02.jpg"
                 width="auto"
-                height="650"
+                height="100%"
                 alt="Second slide"
               />
             </div>
@@ -137,7 +143,7 @@
                 class="d-block w-100"
                 src="images/slide03.jpg"
                 width="auto"
-                height="650"
+                height="100%"
                 alt="Third slide"
               />
             </div>
@@ -162,7 +168,38 @@
           </a>
         </div>
       </div>
-      <div class="item">Page 1</div>
+
+      <div class="item">
+        <div class="jumbotron rounded-xl">
+          <h1 class="display-4" style="text-align: center">
+          Our Story</h1>
+          <p class="lead" style="text-align: center">
+            Webber Electrocorp
+          </p>
+          <hr class="my-4" style ="text-align: justify">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            at dignissim augue, in iaculis neque. Etiam bibendum felis ac
+            vulputate pellentesque. Cras non blandit quam. Nunc porta, est
+            non posuere sagittis, neque nunc pellentesque diam, a iaculis
+            lacus urna vitae purus. In non dui vel est tempor faucibus.
+            Aliquam erat volutpat. Quisque vel est vitae nibh laoreet
+            auctor. In nec libero dui. Nulla ullamcorper, dolor nec
+            accumsan viverra, libero eros rutrum metus, vel lacinia magna
+            odio non nunc. Praesent semper felis eu rhoncus aliquam. Donec
+            at quam ac libero vestibulum pretium. Nunc faucibus vel arcu
+            in malesuada. Aenean at velit odio. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Maecenas commodo erat eget molestie sollicitudin. Donec
+            imperdiet, ex sed blandit dictum, ipsum metus ultrices arcu,
+            vitae euismod nisl sapien vitae tortor.
+          </p>
+          
+        </div>
+
+  
+      </div>
+
       <div class="item">Page 2</div>
       <div class="item">Page 3</div>
     </div>
