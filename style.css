@@ -37,6 +37,8 @@ body {
   visibility: visible;
 }
 
+/* JUMBOTRON */
+
 .jumbotron{
   width: 80%;
   margin-top: 100px;
@@ -45,9 +47,21 @@ body {
 
 .jumbotron.rounded-xl {
   border-radius: 3rem;
+}
+
+.paragraph{
+  text-align: justify;
+  width: 50%;
 
 }
 
+.JumbImg{
+  padding-right: 10%;
+  width:40%;
+}
+
+
+/* NAVBAR */
 
 .navbar.bg-dark{
   transition:500ms ease;
