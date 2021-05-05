@@ -35,14 +35,13 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      function myFunction() {
-      $("nav").addClass("scrolled");
-    }
-
+      
     function myFunctionX(x) {
       x.classList.toggle("change");
     }
 
+    
+    
     </script>
 
     <!--<header id="header" class="alt">
@@ -111,8 +110,8 @@
       </div>
     </nav>
 
-    <div class="page" onscroll="myFunction()">
-      <div class="item">
+    <div class="page">
+      <div class="item" onmouseover="myFunctionY()"  onmouseout="myFunction()">
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -179,9 +178,11 @@
           </a>
         </div>
       </div>
+    
 
-      <div class="item">
-        <div class="jumbotron">
+     
+      <div class="item" onmouseover="myFunction()"  onmouseout="myFunctionY()">
+        <div class="jumbotron" >
           <h1 class="display-4" style="text-align: center">
           Our Story</h1>
           <p class="lead" style="text-align: center">
@@ -203,14 +204,75 @@
           </p>
         </div>
       </div>
+      
 
-      <div class="item">
+      
+      <div class="item" onmouseover="myFunction()"  onmouseout="myFunctionY()">
       <iframe src="ItemSlider-master/index.html" style="border: 0; width: 100%; height: 110%"></iframe>
       </div>
-      <div class="item">
-       <iframe src="Our Team Section/index.html" style="padding-top:150px; border: 0; width: 100%; height: 110%"></iframe>
+      
+      
+      
+      <div class="item" onmouseover="myFunction()"  onmouseout="myFunctionY()">
+        <div class = "Team">
+            <h4 class = "TeamHeading"> Our Team </h4>
+            <img src="Our Team Section\img\p1.jpeg" style="width:200px" class ="avatar1" onmouseover= "changeText('Work on Node MCU 2.0')" onmouseout="defaultText()">
+            <img src="Our Team Section\img\p2.jpeg" style="width:200px" class ="avatar2" onmouseover="changeText('Work on BMS')" onmouseout="defaultText()">
 
+            <div class = "txtdisp">
+              <h2>Meet the brains behind</h2>
+              <hr class="my-4">
+              <div id = "text-display">
+                We are only as good as our Team
+              </div>
+            </div>
+        </div>
+      </div>
+      
+      
+      
+      <div class = "item" onmouseover="myFunctionY()">
+       <iframe src="ContactFrom_v15\index.html" style="border: 0; width: 100%; height: 100%"></iframe>
+      </div>
+      
+    
+
+    <div class = "item-foot">
+    <div id='dynamic_footer'>
+      <div id='copyright'>
+        <p>© 2021 Webber Electrocorp <i class="fa fa-angle-up"></i></p>
       </div>
     </div>
+    </div>
+  </div>
+    
   </body>
+
+  <script type="text/javascript">
+    function changeText(text)
+        {
+            var display = document.getElementById('text-display');
+            
+            display.innerHTML = "";
+            display.innerHTML = text;
+        }
+              
+    function defaultText()
+        {
+            var display = document.getElementById('text-display');
+            display.innerHTML = "";
+            display.innerHTML = "We are only as good as our Team";
+        }
+
+    function myFunctionY() {
+      console.log("working");
+      $("nav").removeClass("scrolled");
+    }
+
+    function myFunction() {
+      $("nav").addClass("scrolled");
+    }
+
+    </script>
+
 </html>
