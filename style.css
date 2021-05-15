@@ -139,6 +139,10 @@ div.Products{
   bottom: 30%;
   width: 40%;
   opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 .Prod2img{
   position: absolute;
@@ -146,6 +150,10 @@ div.Products{
   bottom: 30%;
   width: 40%;
   opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 .Prod3img{
   position: absolute;
@@ -153,6 +161,10 @@ div.Products{
   bottom: 30%;
   width: 40%;
   opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 .Prod4img{
   position: absolute;
@@ -160,6 +172,10 @@ div.Products{
   bottom: 30%;
   width: 40%;
   opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .txtdisp2
