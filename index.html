@@ -205,7 +205,29 @@
 
       
       <div class="item">
-      <iframe src="ItemSlider-master/index.html" class = "subsec"></iframe>
+      <div class = "Products">
+            <h4 class = "ProdHeading"> Products </h4>
+            <button class = "ProdBut" onmouseover= "nodemcu('Work on Node MCU 2.0')"><span>Node MCU 2.0</span></button>
+            <button class = "ProdBut" onmouseover="bms('Work on BMS')" ><span>BMS</span></button>
+            <button class = "ProdBut" onmouseover= "gearbox('Work on Gearbox')" ><span>GearBox</span></button>
+            <button class = "ProdBut" onmouseover="subsys('Work on Sub Systems')" onmouseout="defaultText2()"><span>Sub Systems</span></button>
+
+            <img src="images\1n.jpg" class ="Prod1img">
+            <img src="images\Prod2.jpg" class ="Prod2img">
+            <img src="images\Prod3.jpg" class ="Prod3img">
+            <img src="images\Product1.jpg" class ="Prod4img">
+
+            <!--<img src="Our Team Section\img\p2.jpeg" style="width:10%" class ="avatar2" onmouseover="changeText('Work on BMS')" onmouseout="defaultText()">
+            -->
+            <div class = "txtdisp2">
+              <h2>Future Mobility at it's best</h2>
+              <hr class="my-4">
+              <div id = "text-display2">
+                Work on Node MCU 2.0
+              </div>
+            </div>
+        </div>
+      <!--<iframe src="ItemSlider-master/index.html" class = "subsec"></iframe>-->
       </div>
       
       
@@ -215,6 +237,10 @@
             <h4 class = "TeamHeading"> Our Team </h4>
             <img src="Our Team Section\img\p1.jpeg" style="width:10%" class ="avatar1" onmouseover= "changeText('Work on Node MCU 2.0')" onmouseout="defaultText()">
             <img src="Our Team Section\img\p2.jpeg" style="width:10%" class ="avatar2" onmouseover="changeText('Work on BMS')" onmouseout="defaultText()">
+            <img src="Our Team Section\img\p3.jpg" style="width:10%" class ="avatar3" onmouseover="changeText('Work on PCB Board')" onmouseout="defaultText()">
+            <img src="Our Team Section\img\p1.jpeg" style="width:10%" class ="avatar4" onmouseover="changeText('Work on Node MCU 2,0')" onmouseout="defaultText()">
+            <img src="Our Team Section\img\p2.jpeg" style="width:10%" class ="avatar5" onmouseover="changeText('Work on BMS')" onmouseout="defaultText()">
+            <img src="Our Team Section\img\p3.jpg" style="width:10%" class ="avatar6" onmouseover="changeText('Work on PCB Board')" onmouseout="defaultText()">
 
             <div class = "txtdisp">
               <h2>Meet the brains behind</h2>
@@ -229,7 +255,7 @@
       
       
       <div class = "item">
-       <iframe src="contact-form-18\index.html" class = "subsec1"></iframe>
+      <iframe src="contact-form-18\index.html" class = "subsec1"></iframe>
       </div>
       
     
@@ -259,6 +285,65 @@
             var display = document.getElementById('text-display');
             display.innerHTML = "";
             display.innerHTML = "We are only as good as our Team";
+        }
+
+    function nodemcu(text)
+        {
+            var display = document.getElementById('text-display2');
+            
+            display.innerHTML = "";
+            display.innerHTML = text;
+            $('.Prod1img').css('opacity', '1');
+            $('.Prod2img').css('opacity', '0');
+            $('.Prod3img').css('opacity', '0');
+            $('.Prod4img').css('opacity', '0');
+        }
+    function bms(text)
+        {
+            var display = document.getElementById('text-display2');
+            
+            display.innerHTML = "";
+            display.innerHTML = text;
+            $('.Prod2img').css('opacity', '1');
+            $('.Prod1img').css('opacity', '0');
+            $('.Prod3img').css('opacity', '0');
+            $('.Prod4img').css('opacity', '0');
+        }
+    function gearbox(text)
+        {
+            var display = document.getElementById('text-display2');
+            
+            display.innerHTML = "";
+            display.innerHTML = text;
+            $("nav").addClass("scrolled");
+            $('.Prod3img').css('opacity', '1');
+            $('.Prod2img').css('opacity', '0');
+            $('.Prod1img').css('opacity', '0');
+            $('.Prod4img').css('opacity', '0');
+        }  
+    function subsys(text)
+        {
+            var display = document.getElementById('text-display2');
+            
+            display.innerHTML = "";
+            display.innerHTML = text;
+            $("nav").addClass("scrolled");
+            $('.Prod4img').css('opacity', '1');
+            $('.Prod2img').css('opacity', '0');
+            $('.Prod3img').css('opacity', '0');
+            $('.Prod1img').css('opacity', '0');
+        }  
+
+
+    function defaultText2()
+        {
+            var display = document.getElementById('text-display2');
+            display.innerHTML = "";
+            display.innerHTML = "We are only as good as our Team";
+            $('.Prod1img').css('opacity', '0');
+            $('.Prod2img').css('opacity', '0');
+            $('.Prod3img').css('opacity', '0');
+            $('.Prod4img').css('opacity', '0');
         }
 
     function myFunctionY() {
