@@ -141,7 +141,7 @@ div.Products{
   position: absolute;
   left: 30%;
   bottom: 30%;
-  width: 40%;
+  width: 35%;
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -152,7 +152,7 @@ div.Products{
   position: absolute;
   left: 30%;
   bottom: 30%;
-  width: 40%;
+  width: 35%;
   opacity: 0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -163,7 +163,7 @@ div.Products{
   position: absolute;
   left: 30%;
   bottom: 30%;
-  width: 40%;
+  width: 35%;
   opacity: 0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -174,7 +174,7 @@ div.Products{
   position: absolute;
   left: 30%;
   bottom: 30%;
-  width: 40%;
+  width: 35%;
   opacity: 0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -196,16 +196,17 @@ div.Products{
 button.ProdBut {
   border-radius: 4px;
   background-color: #5ca1e1;
+  margin-left:0;
   border: none;
   color: #fff;
   text-align: center;
-  font-size: 2vw;
-  padding: 2vw;
+  font-size: 1vw;
+  padding: 1vw;
   width: 20vw;
   transition: all 0.5s;
   cursor: pointer;
   margin: 2.5rem;
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+ 
 }
 
 button.ProdBut{
@@ -217,16 +218,16 @@ button.ProdBut{
 
 button.ProdBut:after {
   content: '»';
-  font-size: 2vw;
+  font-size: 1vw;
   position: absolute;
   opacity: 0;  
-  top: 2vw;
+  top: 1vw;
   right: -20px;
   transition: 0.5s;
 }
 
 button.ProdBut:hover{
-  background-color: aqua;
+  background-color: #5ca1e1;
   padding-right: 24px;
   padding-left:8px;
 }
