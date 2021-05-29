@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+/*CAROUSAL*/
+
+
+
+/*END*/
 
 ::-webkit-scrollbar { 
   display: none; 
@@ -13,12 +18,10 @@ body {
   max-height: 100vh;
   overflow: scroll;
   scroll-snap-type: y mandatory;
+
 }
 
-.d-block.w-100{
-  width: 120rem!important;
-  height: 100%;
-}
+
 
 .item{
   border-bottom: 1px solid rgb(255, 255, 255);
@@ -28,7 +31,8 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 72px;
-  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
 }
 
 .item-foot{
@@ -36,6 +40,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-snap-stop: always;
   scroll-snap-align: center;
 }
 
@@ -50,6 +55,7 @@ body {
   width: 80%;
   background-color: white !important;
   color: #000;
+  scroll-snap-stop: always;
 }
 
 .jumbotron.rounded-xl {
@@ -195,8 +201,8 @@ div.Products{
 
 button.ProdBut {
   border-radius: 4px;
-  background-color: #5ca1e1;
-  margin-left:0;
+  background-color: #000000;
+
   border: none;
   color: #fff;
   text-align: center;
@@ -227,7 +233,7 @@ button.ProdBut:after {
 }
 
 button.ProdBut:hover{
-  background-color: #5ca1e1;
+  background-color: #000000;
   padding-right: 24px;
   padding-left:8px;
 }
@@ -263,7 +269,7 @@ div.Team{
   top: 20%;
   right: 80%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar2{
@@ -271,7 +277,7 @@ div.Team{
   top: 20%;
   right: 70%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar3{
@@ -279,7 +285,7 @@ div.Team{
   top: 20%;
   right: 60%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar4{
@@ -287,7 +293,7 @@ div.Team{
   top: 20%;
   right: 50%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar5{
@@ -295,7 +301,7 @@ div.Team{
   top: 50%;
   right: 75%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar6{
@@ -303,7 +309,7 @@ div.Team{
   top: 50%;
   right: 65%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar7{
@@ -311,36 +317,36 @@ div.Team{
   top: 50%;
   right: 55%;
   border-radius: 50%;
-  border: 1px solid rgb(101, 252, 212);
+  border: 1px solid #000;
 }
 
 .avatar1:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 .avatar2:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 .avatar3:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 .avatar4:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 .avatar5:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 .avatar6:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 .avatar7:hover { 
   border-radius: 50%;
-  border: 5px solid rgb(0, 255, 221); 
+  border: 5px solid #000; 
 } 
 
 .txtdisp
@@ -386,7 +392,7 @@ div.Team{
   position: relative;
   top: 0%; 
   width: 100%; 
-  height: 100%;
+  height:90%;
 }
 
 @media only screen and (max-width: 700px){
@@ -506,7 +512,7 @@ div.Products{
 
 button.ProdBut {
   border-radius: 4px;
-  background-color: #5ca1e1;
+  background-color: #000;
   border: none;
   color: #fff;
   text-align: center;
@@ -537,7 +543,7 @@ button.ProdBut:after {
 }
 
 button.ProdBut:hover{
-  background-color: aqua;
+  background-color: #000;
   padding-right: 24px;
   padding-left:8px;
 }
@@ -571,7 +577,7 @@ button.ProdBut:hover:after {
     width: 20%!important;
     right: 70%;
     border-radius: 50%;
-    border: 1px solid rgb(101, 252, 212);
+    border: 1px solid #000;
   }
   
   .avatar2{
@@ -580,7 +586,7 @@ button.ProdBut:hover:after {
     width: 20%!important;
     right: 40%;
     border-radius: 50%;
-    border: 1px solid rgb(101, 252, 212);
+    border: 1px solid #000;
   }
   
   .avatar3{
@@ -589,7 +595,7 @@ button.ProdBut:hover:after {
     width: 20%!important;
     right: 10%;
     border-radius: 50%;
-    border: 1px solid rgb(101, 252, 212);
+    border: 1px solid #000;
   }
   
   .avatar4{
@@ -598,7 +604,7 @@ button.ProdBut:hover:after {
     width: 20%!important;
     right: 70%;
     border-radius: 50%;
-    border: 1px solid rgb(101, 252, 212);
+    border: 1px solid #000;
   }
   
   .avatar5{
@@ -607,7 +613,7 @@ button.ProdBut:hover:after {
     width: 20%!important;
     right: 40%;
     border-radius: 50%;
-    border: 1px solid rgb(101, 252, 212);
+    border: 1px solid #000;
   }
   
   .avatar6{
@@ -616,32 +622,32 @@ button.ProdBut:hover:after {
     width: 20%!important;
     right: 10%;
     border-radius: 50%;
-    border: 1px solid rgb(101, 252, 212);
+    border: 1px solid #000;
   }
   
   .avatar1:hover { 
     border-radius: 50%;
-    border: 5px solid rgb(0, 255, 221); 
+    border: 5px solid #000; 
   } 
   .avatar2:hover { 
     border-radius: 50%;
-    border: 5px solid rgb(0, 255, 221); 
+    border: 5px solid #000; 
   } 
   .avatar3:hover { 
     border-radius: 50%;
-    border: 5px solid rgb(0, 255, 221); 
+    border: 5px solid #000; 
   } 
   .avatar4:hover { 
     border-radius: 50%;
-    border: 5px solid rgb(0, 255, 221); 
+    border: 5px solid #000; 
   } 
   .avatar5:hover { 
     border-radius: 50%;
-    border: 5px solid rgb(0, 255, 221); 
+    border: 5px solid #000; 
   } 
   .avatar6:hover { 
     border-radius: 50%;
-    border: 5px solid rgb(0, 255, 221); 
+    border: 5px solid #000; 
   } 
   
   
