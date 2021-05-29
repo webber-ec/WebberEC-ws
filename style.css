@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
@@ -52,6 +52,7 @@ body {
 /* JUMBOTRON */
 
 .jumbotron{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   width: 80%;
   background-color: white !important;
   color: #000;
@@ -59,6 +60,7 @@ body {
 }
 
 .jumbotron.rounded-xl {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   border-radius: 3rem;
 }
 
@@ -67,6 +69,7 @@ body {
 }
 
 .paragraph{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   text-align: justify;
   flex: 50%;
   padding: 10px;
@@ -132,7 +135,7 @@ div.Products{
   position: relative;
   width: 100%;
   height: 90%;
-
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .ProdHeading{
@@ -190,6 +193,7 @@ div.Products{
 
 .txtdisp2
 {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
     position: absolute;
     color: #000;
     top : 30%!important;
@@ -199,16 +203,25 @@ div.Products{
     font-size: 20px!important;
 }
 
+button.ProdBut{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
+  position: absolute;
+  right: 5%!important;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 button.ProdBut {
   border-radius: 4px;
   background-color: #000000;
 
+
   border: none;
   color: #fff;
   text-align: center;
-  font-size: 1vw;
-  padding: 1vw;
-  width: 20vw;
+  font-size: 1.5vw;
+  padding: 1.5vw;
+  width: 25vw;
   transition: all 0.5s;
   cursor: pointer;
   margin: 2.5rem;
@@ -216,6 +229,7 @@ button.ProdBut {
 }
 
 button.ProdBut{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   cursor: pointer;
   display: block;
   position: relative;
@@ -223,11 +237,12 @@ button.ProdBut{
 }
 
 button.ProdBut:after {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   content: '»';
-  font-size: 1vw;
+  font-size: 1.5vw;
   position: absolute;
   opacity: 0;  
-  top: 1vw;
+  top: 1.5vw;
   right: -20px;
   transition: 0.5s;
 }
@@ -247,6 +262,7 @@ button.ProdBut:hover:after {
 /* Our Team */
 
 div.Team{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   position: relative;
   width: 100%;
   height: 90%;
@@ -257,7 +273,7 @@ div.Team{
 
 .TeamHeading{
   color: #000;
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
   font-weight: 100;
   top: 30%!important;
   font-size: 3vw;
@@ -351,6 +367,7 @@ div.Team{
 
 .txtdisp
 {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
     position: absolute;
     color: #000;
     top : 30%!important;
