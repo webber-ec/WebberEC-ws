@@ -124,6 +124,135 @@ div.Team{
 	  font-size: 20px!important;
   }
 	
+
+@media only screen and (max-width: 750px){
+  div.Team{
+    position: relative;
+    width: 100vw!important;
+    height: 90%;
+  }
+  
+  
+  .TeamHeading{
+    color: #000;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .avatar1{
+    position: absolute;
+    top: 10%;
+    width: 10%!important;
+    right: 70vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .avatar2{
+    position: absolute;
+    top: 10%;
+    width: 10%!important;
+    right: 55vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .avatar3{
+    position: absolute;
+    top: 10%;
+    width: 10%!important;
+    right: 35vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .avatar4{
+    position: absolute;
+    top: 10%;
+    width: 10%!important;
+    right: 20vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .avatar5{
+    position: absolute;
+    top: 25%;
+    width: 10%!important;
+    right: 62.5%;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .avatar6{
+    position: absolute;
+    top: 25%;
+    width: 10%!important;
+    right: 45%;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+
+  .avatar7{
+    position: absolute;
+    top: 25%;
+    width: 10%!important;
+    right: 27.5%;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+  
+  .avatar1:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  .avatar2:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  .avatar3:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  .avatar4:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  .avatar5:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  .avatar6:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  .avatar7:hover { 
+    border-radius: 50%;
+    border: 5px solid #000; 
+  } 
+  
+  .wrapper > .inners {
+	margin: 0 auto;
+	width: 100vw!important;
+	height: 500px;
+	}
+
+  .txtdisp
+  {
+      position: absolute;
+      color: #000;
+      top : 40%!important;
+      right : 0%!important;
+      left: 0%!important;
+      text-align: center!important;
+      font-size: 20px!important;
+      margin-left: 0%;
+
+  }
+
+}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -3858,8 +3987,13 @@ div.Team{
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0.6em;
+			top: 0.8em;
 			align-content: center;
+		}
+
+		.logoimg{
+			height: 2.5em;
+			width: 12em;
 		}
 
 			#header > .logo a {
@@ -3925,8 +4059,18 @@ div.Team{
 
 			@media screen and (max-width: 736px) {
 
+				#header > .logo {
+			
+					top: 0.4em;
+					
+				}
+
 				#header > a {
 					padding: 0 0.5em;
+				}
+				.logoimg{
+					height: 1.5em;
+					width: 8em;
 				}
 
 					#header > a + a[href="#menu"]:last-child {
