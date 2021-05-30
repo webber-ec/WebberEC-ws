@@ -9,7 +9,121 @@
 */
 
 /* Reset */
-
+div.Team{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	position: relative;
+	width: 100%;
+	height: 90%;
+  
+  }
+  
+  
+  .TeamHeading{
+	color: #000;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	font-weight: 100;
+	top: 30%!important;
+	font-size: 3vw;
+	text-align: center;
+  }
+  
+  .avatar1{
+	position: absolute;
+	top: 20%;
+	right: 80%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar2{
+	position: absolute;
+	top: 20%;
+	right: 70%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar3{
+	position: absolute;
+	top: 20%;
+	right: 60%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar4{
+	position: absolute;
+	top: 20%;
+	right: 50%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar5{
+	position: absolute;
+	top: 50%;
+	right: 75%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar6{
+	position: absolute;
+	top: 50%;
+	right: 65%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar7{
+	position: absolute;
+	top: 50%;
+	right: 55%;
+	border-radius: 50%;
+	border: 1px solid #000;
+  }
+  
+  .avatar1:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  .avatar2:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  .avatar3:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  .avatar4:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  .avatar5:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  .avatar6:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  .avatar7:hover { 
+	border-radius: 50%;
+	border: 5px solid #000; 
+  } 
+  
+  .txtdisp
+  {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	  position: absolute;
+	  color: #000;
+	  top : 30%!important;
+	  right : 10%!important;
+	  margin-left: 50%;
+	  text-align: center!important;
+	  font-size: 20px!important;
+  }
+	
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
