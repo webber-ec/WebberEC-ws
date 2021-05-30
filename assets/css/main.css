@@ -2807,7 +2807,7 @@ div.Team{
 		.wrapper > .inners {
 			margin: 0 auto;
 			width: 80rem;
-			height: 30rem;
+			height: 500px;
 		}
 		.wrapper.style1 {
 			background-color: #8a4680;
@@ -3840,9 +3840,9 @@ div.Team{
 		background: rgba(0, 0, 0, 0.975);
 		color: #a6a6a6;
 		cursor: default;
-		height: 3.25em;
+		height: 5em;
 		left: 0;
-		line-height: 3.25em;
+		line-height: 5em;
 		position: fixed;
 		text-align: right;
 		top: 0;
