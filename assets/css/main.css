@@ -2804,7 +2804,11 @@ div.Team{
 			margin: 0 auto;
 			width: 80rem;
 		}
-
+		.wrapper > .inners {
+			margin: 0 auto;
+			width: 80rem;
+			height: 30rem;
+		}
 		.wrapper.style1 {
 			background-color: #8a4680;
 			color: #e2d1df;
